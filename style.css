@@ -1,0 +1,591 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+   position:fixed;
+   top:0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    z-index: 1;
+    
+}
+.header1{
+    position: absolute;
+    left:0;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header1 h3{
+    padding:15px 25px;
+    font-family: poppins;
+    color: #9e91e9;
+    letter-spacing: 1px;
+}
+.header2{
+    position: absolute;
+    right:0;
+    margin-right:100px ;
+    margin-top:6px;
+    font-size:13px;
+   padding-top: 35px;
+   font-weight: 600;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2 ul{
+    list-style: none;
+
+}
+.header2 ul li{
+     
+     outline: none;
+     float: left;
+     padding:10px;
+   
+}
+.header2 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(119, 92, 173);
+   
+}
+.header2 ul li a:hover{
+    background-color: rgb(10, 10, 236);
+    transition: all ease 0.5s;
+    color:#fff;
+}
+.checkbtn{
+   
+    font-size: 30px;
+    float: right;
+    color: black;
+    line-height:80px;
+    margin-right:-170px;
+}
+#check{
+    display:none;
+}
+.sec1{
+    width:100%;
+    height:550px;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.sec1 .text{
+    width:40%;
+    margin-top: -30px;
+}
+.sec1 .text h3{
+    font-weight: 500;
+    color: rgb(40, 36, 36,0.8);
+    font-size:15px;
+     top:10px;
+     letter-spacing: 0.5px;
+}
+.sec1 .text h1{
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.sec1 .text p{
+    color: rgba(45, 39, 39,0.8);
+    padding-top: 20px;
+}
+.sec1 .img1{
+       width:40%;
+}
+.sec1 .img1 img{
+   height:550px;
+   padding:0 20px;
+}
+.sec1 .text button{
+    width:170px;
+    height:45px;
+    background-color: rgb(72, 72, 234);
+    color: #fff;
+    margin-top: 20px;
+    border: transparent;
+}
+.sec1 .text button:hover{
+    background-color: rgb(150, 48, 247);
+    transition: all ease 0.5s;
+}
+.sec2{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .img2{
+    width:40%;
+}
+.sec2 .img2 img{
+    width:100%;
+    height: 100;
+    object-fit: contain;
+}
+.sec2 .text2{
+    width:40%;
+    margin-left: 80px;
+}
+.sec2 .text2 h3{
+      color:rgba(23, 19, 19,0.8);
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: .5px;
+      padding-bottom: 20px;
+}
+.sec2 .text2 h1{
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.sec2 .text2 p{
+    color: rgba(24, 23, 23,0.8);
+    padding-bottom: 20px;
+}
+.sec2  .text2 button{
+    background-color: rgba(55, 55, 231,0.9);
+    color: #fff;
+    width:170px;
+    height:50px;
+    border:transparent;
+    margin-top: 10px;
+}
+.sec2  .text2 button:hover{
+    box-shadow: 2px 2px 30px rgba(23, 19, 19,0.3);
+    background-color: #9e91e9;
+    transition: all ease 0.5s;
+
+}
+.sec3{
+    width:100%;
+    background-color: #fff;
+    justify-content: center;
+    margin:0 auto;
+    text-align: center;
+    height: 645px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec3 .hding{
+   margin:0 auto;
+   font-family: sans-serif;
+   padding-top: 30px;
+   padding-bottom: 40px;
+   width:50%;
+}
+.sec3 .hding h1{
+       padding-bottom: 10px; 
+       font-size: 30px;   
+
+}
+.sec3 .hding p{
+    color: rgba(20, 13, 13,0.6);
+}
+.sec3 .area{
+    width:80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 145px;
+}
+.sec3 .area .box{
+    
+    width:32%;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+}
+i{
+    color:rgba(15, 11, 11,0.6)
+}
+.sec3 .area .box h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(15, 11, 11,0.9);
+}
+.sec3 .area .box p{
+    color: rgba(15, 11, 11,0.6);
+}
+.sec4{
+    width:100%;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:#9e91e9;
+    
+}
+.sec4 div{
+    
+    position: relative;
+    margin: 0 auto; 
+    padding: -60px;
+    
+}
+.sec4 h1,p{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+.sec4 h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+.sec5{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+}
+.sec5 .text4{
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.sec5 .text4 h1{
+    padding-top:100px;
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.sec5 .text4 h6{
+    font-weight:100;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(19, 18, 18,0.8);
+}
+.sec5 .photobox {
+    width:75%;
+    margin:0 auto;
+    height:auto;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    flex-wrap:wrap ;
+}
+.sec5 .photobox .port{
+    padding-top: 30px;
+    text-align: center;
+
+}
+figure img{
+
+    height:180px;
+}
+.sec5 .photobox .port h6{
+    color: rgba(18, 17, 17,0.7);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ 
+figure img:hover{
+    opacity: 0.3;
+}
+.sec6{
+    width:100%;
+    height:600px;
+}
+.sec6 .sector{
+    text-align: center;
+}
+.sec6 .sector h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
+.sec6 .sector h6{
+    color: rgba(19, 15, 15,0.7);
+    font-weight: 300;
+}
+.number{
+    width:80%;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    text-align: center;
+}
+
+.number h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.number h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(19, 15, 15,0.7);
+}
+ .sec6 button{
+    width:170px;
+    height:45px;
+    color:#fff;
+    background-color: rgba(10, 10, 236,0.7);
+  margin-top: 20px;
+    align-items: center;
+    border: transparent;
+    cursor:pointer;
+    
+}
+.sec6  .number div:hover{
+    background-color:rgba(21, 21, 194,0.5);
+    color: #fff;
+    transition: all ease 0.5s;
+    transform: scale(1.05);
+
+
+}
+.sec6 button:hover{
+    background-color: #9e91e9;
+}
+footer{
+    width:100%;
+    height:400px;
+    background-color: rgb(45, 37, 37);
+}
+footer .foot{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+}
+footer .foot .foot1, .foot2, .foot3{
+    width:50%;
+    
+}
+.foot1{
+    padding-top: 10%;
+}
+.foot1 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.foot1 h6{
+    font-weight: 600;
+    color:rgba(209, 208, 208,0.7);
+    padding-top: 20px;
+}
+.foot2{
+    padding-top: 8%;
+    width:50%;
+}
+.foot2 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.foot2 h6{
+    font-weight: 600;
+    color:rgba(209, 208, 208,0.7);
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+.foot2 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding:10px 50px 10px 10px
+    
+}
+.foot2 button{
+    font-size: 18px;
+    color:#fff;
+    background-color: rgb(123, 123, 182);
+    outline: none;
+    border:none;
+    padding:8px 6px;
+}
+.foot3{
+    text-align: center;
+}
+.foot3 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.foot3 h6{
+    font-weight: 600;
+    color:rgba(209, 208, 208,0.7);
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+@media(max-width:768px){
+    header{
+        width:100%;
+        height:auto;
+
+    }
+    .header1{
+        margin-left:20px;
+        margin-top:70px;
+    }
+    .checkbtn{
+        display:block !important;
+    }
+    .header2 ul{
+        position: fixed;
+        width:100%;
+        height:100vh;
+        background:#fff;
+        top: 54px;
+        left:-200%;
+        transition: all ease 0.1s;
+    }
+    .header2 ul li{
+        line-height: 30px;
+        clear:both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+@media(max-width:768px){
+    .sec1{
+        width:100%;
+        display: block;
+        height:auto;
+       
+    }
+    .sec1 .text{
+        text-align: center;
+        margin:auto;
+        padding-top: 50px;
+    }
+    .sec1 .text h3{
+        font-size: 15px;
+        position: relative;
+        margin-left: -83px;
+    }
+    .sec1 .text h1{
+        font-size: 50px;
+    }
+    .sec1 .text p{
+        width:90%;
+        
+    }
+    .sec1 .img1{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .sec1 .img1 img{
+        height:400px;
+    }
+    .sec2{
+        width:100%;
+        height:100%;
+        display:block;
+        position: relative;
+        margin-top:10%;
+        margin-bottom: 450px;
+        
+    }
+    .sec2 .img2{
+        width:100%;
+        height:auto;
+        object-fit: contain;
+    }
+    .sec2 ,.img2 img{
+        height:300px;
+    }
+    .sec2 .text2{
+        
+        margin:auto;
+    }
+    .sec2 .text2 h3{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .sec2 .text2 h1{
+        padding-top: 10px;
+        font-size:28px;
+        width:80%;
+        margin: auto;
+        font-weight: bold;
+
+    }
+    .sec2 .text2 p{
+        width: 200%;
+        position: relative;
+        margin-left: -50%;
+    }
+    .sec3{
+        width:100%;
+        height:auto;
+    }
+    .sec3 .hding  .h
+    .sec3 .hding p{
+        width:200%;
+        position:relative;
+        margin-left: -30%;
+    }
+    .sec3 .area .box{
+        width:100%;
+        height:auto;
+        position: relative;
+        margin-left: -22%;
+        clear: right;
+    }
+    .sec4{
+        width:100%;
+        height:auto;
+        display: block;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .sec6{
+        width:100%;
+        height:auto;
+        display: block;
+    }
+    .sec6 .number{
+        width:100%;
+        height:auto;
+        display:block;
+        clear: right;
+        padding-top: 40px;
+        
+    }
+    .sec6 .number div{
+        padding-bottom:40px;
+    }
+    footer{
+        width: 100%;
+        height:100vh;
+        position: relative;
+        
+
+    }
+    .foot3 h6{
+        position: relative;
+        margin-right:-100px;
+    }
+        
+}
